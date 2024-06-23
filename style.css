@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Montserrat", sans-serif;
+    
+}
+
+#navbar, #navbar ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 17vh;
+  
+}
+
+#navbar p {
+    font-size: 1.5rem;
+}
+
+#navbar p:hover {
+    cursor: default;
+}
+
+#navbar ul {
+    list-style: none;
+    gap: 2rem;
+    font-size: 1.5rem;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: black;
+
+}
+
+#navbar a::before {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #f1c40f;
+    width: 0;
+    transition: width 0.3s;
+}
+
+#navbar a:hover::before {
+    width: 100%;
+
+}
