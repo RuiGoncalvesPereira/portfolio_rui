@@ -1,15 +1,198 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Under Development</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="container">
-        <h1>I'm currently under development, coming soon</h1>
-        <p>- Rui Gonçalves Pereira</p>
-    </div>
+    <nav class="top-navbar">
+        <div class="navbar">
+            <a href="index.html" class="name">Rui Gonçalves Pereira</a>
+            <div class="nav-links" id="nav-links">
+                <a href="index.html">Startseite</a>
+                <a href="pages/projects.html">Projekte</a>
+                <a href="pages/blog.html">Blog</a>
+                <a href="pages/contact.html">Kontakt</a>
+            </div>
+            <button class="menu-icon" id="menu-icon">&#9776;</button>
+        </div>
+    </nav>
+    <section id="home" class="home-section">
+        <h1>Willkommen zu meiner Webseite</h1>
+        <div class="intro">
+            <img src="bilder/rui_bild.png" alt="Dein Bild" class="profile-picture">
+            <div class="intro-text">
+                <h2>Rui Gonçalves Pereira</h2>
+                <p>Schüler in Ausbildung als Informatiker Applikationsentwicklung EFZ<br>Informatikmittelschule Basel</p>
+                <p></p>
+            </div>
+        </div>
+    </section>
+    <section id="about" class="about-section">
+        <h2>Über mich</h2>
+        <p>Ich bin Schüler im 11. Schuljahr an der Informatikmittelschule Basel und arbeite seit meiner Kindheit gerne mit Computern. Ich denke analytisch und logisch, bin ein guter Teamplayer und immer kundenorientiert. Besonders interessiere ich mich für Applikationsentwicklung und finde praktische Lösungen für komplexe Probleme spannend.</p>
+    </section>
+    <section id="skills" class="skills-section">
+        <h2>Informatikkompetenzen</h2>
+        <div class="skills-chart">
+            <div class="skills-category">
+                <h3>Programmiersprachen</h3>
+                <div class="skill">
+                    <span>Java</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Python</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>PHP</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Datenbanken</h3>
+                <div class="skill">
+                    <span>MySQL</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>NoSQL</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>MongoDB</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="skills-category">
+                <h3>Weitere</h3>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Office 365</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Git</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>BPMN</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Docker</span>
+                    <div class="skill-level">
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                        <div class="level filled"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="legend">
+            <h3>Legende</h3>
+            <table>
+                <tr>
+                    <td class="legend-number">1</td>
+                    <td>Grundkenntnisse, keine praktische Erfahrung</td>
+                </tr>
+                <tr>
+                    <td class="legend-number">2</td>
+                    <td>Zusammenhänge, wenig praktische Erfahrung</td>
+                </tr>
+                <tr>
+                    <td class="legend-number">3</td>
+                    <td>Theoretische Kenntnisse, praktische Erfahrungen</td>
+                </tr>
+                <tr>
+                    <td class="legend-number">4</td>
+                    <td>Gute Kenntnisse, viel Erfahrung</td>
+                </tr>
+                <tr>
+                    <td class="legend-number">5</td>
+                    <td>Experte, viel praktische Erfahrung</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section id="cv" class="cv-section">
+        <h2>CV / Lebenslauf</h2>
+        <a href="#" target="_blank" class="cv-link">Lebenslauf herunterladen</a>
+    </section>
+    <section id="grades" class="grades-section">
+        <h2>Modulnoten</h2>
+        <a href="docs/Übersicht Modulnoten Petra Muster.pdf" target="_blank" class="grades-link">Modulnoten herunterladen</a>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Rui Gonçalves Pereira</p>
+    </footer>
 </body>
 </html>
