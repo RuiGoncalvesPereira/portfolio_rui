@@ -56,7 +56,7 @@ const translations = {
   de: {
     hey: 'hallo.',
     welcome: "das ist mein portfolio, in dem ich so tue, als wüsste ich genau, was ich tue, nur um ein bisschen anzugeben.",
-    about: "ich bin rui gonçalves pereira, ein leidenschaftlicher entwickler mit einer vorliebe für moderne webanwendungen und neue technologien. ich löse gerne probleme, lerne neue fähigkeiten und arbeite kreativ im team.",
+    about: "ich bin rui gonçalves pereira, schüler im 4. jahr an der ims basel und mache derzeit mein praktikum bei smartwork ag in basel. ich arbeite darauf hin, applikationsentwickler zu werden und die fähigkeiten zu erlernen, um nützliche, gut gemachte software zu entwickeln.",
     cv: 'lebenslauf',
     cvdesc: "das ist mein lebenslauf, in dem ich mich von meiner besten seite zeige und hoffe, dass du nicht zu viele rückfragen hast.",
     opencv: 'lebenslauf öffnen (pdf)',
@@ -90,8 +90,8 @@ const translations = {
   },
   pt: {
     hey: 'olá.',
-    welcome: "este é o meu portfólio onde finjo saber exatamente o que estou a fazer só para impressionar um pouco.",
-    about: "sou o rui gonçalves pereira, um programador apaixonado por criar aplicações web modernas e explorar novas tecnologias. gosto de resolver problemas, aprender novas competências e colaborar em projectos criativos.",
+    welcome: "este é o meu portefólio onde finjo saber exatamente o que estou a fazer só para impressionar um pouco.",
+    about: "sou o rui gonçalves pereira, estudante do 4.º ano na ims basel e actualmente a realizar o meu estágio na smartwork ag em basileia. estou a preparar-me para me tornar programador de aplicações e desenvolver as competências para criar software útil e bem feito.",
     cv: 'currículo',
     cvdesc: "este é o meu currículo, onde apresento o meu melhor lado e espero que não faças muitas perguntas.",
     opencv: 'abrir currículo (pdf)',
