@@ -21,7 +21,7 @@ const translations = {
   en: {
     hey: 'hey.',
     welcome: "this is my portfolio where i pretend i know exactly what i’m doing just to show off a little.",
-    about: "i'm rui gonçalves pereira, a passionate developer with a love for building modern web applications and exploring new technologies. i enjoy solving problems, learning new skills, and collaborating on creative projects. whether it's coding, designing, or tinkering with new tools, i'm always eager to grow and make an impact.",
+    about: "i’m rui gonçalves pereira, a 4th-year student at ims basel currently doing my internship at smartwork ag in basel. i’m working towards becoming an application developer and building the skills to create useful, well-made software.",
     cv: 'cv',
     cvdesc: "this is my cv, where i present my best self and hope you don’t ask too many follow-ups.",
     opencv: 'open cv (pdf)',
