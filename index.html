@@ -1,197 +1,157 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Rui Pereira</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="top-navbar">
-        <div class="navbar">
-            <a href="index.html" class="name">Rui Gonçalves Pereira</a>
-            <div class="nav-links" id="nav-links">
-                <a href="index.html">Startseite</a>
-                <a href="pages/projects.html">Projekte</a>
-                <a href="pages/blog.html">Blog</a>
-                <a href="pages/contact.html">Kontakt</a>
-            </div>
-            <button class="menu-icon" id="menu-icon">&#9776;</button>
-        </div>
-    </nav>
-    <section id="home" class="home-section">
-        <h1>Willkommen zu meiner Webseite!
-        </h1>
-        <div class="intro">
-            <img src="bilder/rui_bild.png" alt="Dein Bild" class="profile-picture">
-            <div class="intro-text">
-                <h2>Rui Gonçalves Pereira</h2>
-                <p>Schüler in Ausbildung als Informatiker Applikationsentwicklung EFZ<br>Informatikmittelschule Basel</p>
-                <p>Hallo! Mein Name ist Rui Gonçalves Pereira. Ich bin ein angehender Informatiker mit einer Leidenschaft für Technologie und Softwareentwicklung. In meiner Freizeit arbeite ich an verschiedenen Projekten, um meine Fähigkeiten zu verbessern und neue Technologien zu erlernen. Ich freue mich darauf, meine Kenntnisse und Projekte mit Ihnen zu teilen.</p>
-            </div>
-        </div>
+  <nav>
+    <div class="navbar-container">
+      <a href="#" class="navbar-title">rui gonçalves pereira</a>
+      <!-- Hamburger menu for mobile -->
+      <div class="navbar-hamburger" id="navbar-hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="navbar-links" id="navbar-links">
+        <li><a href="projects.html">projects</a></li>
+        <li><a href="posts.html">posts</a></li>
+        <li><a href="contact.html">contact</a></li>
+        <!-- Language Switcher (move inside navbar-links for mobile) -->
+        <li class="lang-switcher-li">
+          <div class="lang-switcher">
+            <button class="lang-btn" data-lang="en">EN</button>
+            <button class="lang-btn" data-lang="de">DE</button>
+            <button class="lang-btn" data-lang="pt">PT</button>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section class="main-section">
+      <img src="bilder/rui_bild.png" alt="Rui's face" class="profile-pic">
+      <div class="main-text">
+        <h1>hey.</h1>
+        <p>this is my portfolio where i pretend i know exactly what i’m doing just to show off a little.</p>
+      </div>
     </section>
-    <section id="about" class="about-section">
-        <h2>Über mich</h2>
-        <p>Als Schüler im 3. Schuljahr an der Informatikmittelschule Basel habe ich seit meiner Kindheit eine Leidenschaft für Computer. Meine analytischen und logischen Denkfähigkeiten, kombiniert mit meiner Teamfähigkeit und Kundenorientierung, machen mich zu einem idealen Kandidaten. Besonders begeistert mich die Applikationsentwicklung und ich finde es spannend, praktische Lösungen für komplexe Probleme zu entwickeln.</p>
+    <!-- About Me Section -->
+      <section class="about-section">
+        <p>
+          i’m rui gonçalves pereira, a 4th-year student at ims basel currently doing my internship at smartwork ag in basel.
+          i’m working towards becoming an application developer and building the skills to create useful, well-made software.
+        </p>
+      </section>
+    <!-- CV Container (Open PDF Button Only) -->
+    <section class="cv-section">
+      <div class="cv-header-text">
+        <h2>cv</h2>
+        <p>this is my cv, where i present my best self and hope you don’t ask too many follow-ups.</p>
+      </div>
+      <a href="docs/CV_Pereira_Rui.pdf" class="cv-download-btn" target="_blank" style="text-transform: lowercase;">open cv (pdf)</a>
     </section>
-    <section id="skills" class="skills-section">
-        <h2>Informatikkompetenzen</h2>
-        <div class="skills-chart">
-            <div class="skills-category">
-                <h3>Programmiersprachen</h3>
-                <div class="skill">
-                    <span>Java</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>JavaScript</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Python</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>PHP</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="skills-category">
-                <h3>Datenbanken</h3>
-                <div class="skill">
-                    <span>MySQL</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>NoSQL</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>MongoDB</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-            </div>
-            <div class="skills-category">
-                <h3>Weitere</h3>
-                <div class="skill">
-                    <span>HTML</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>CSS</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Office 365</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Git</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>BPMN</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-                <div class="skill">
-                    <span>Docker</span>
-                    <div class="skill-level">
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                        <div class="level filled"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="legend">
-            <h3>Legende</h3>
-            <table>
-                <tr>
-                    <td class="legend-number">1</td>
-                    <td>Grundkenntnisse, keine praktische Erfahrung</td>
-                </tr>
-                <tr>
-                    <td class="legend-number">2</td>
-                    <td>Zusammenhänge, wenig praktische Erfahrung</td>
-                </tr>
-                <tr>
-                    <td class="legend-number">3</td>
-                    <td>Theoretische Kenntnisse, praktische Erfahrungen</td>
-                </tr>
-                <tr>
-                    <td class="legend-number">4</td>
-                    <td>Gute Kenntnisse, viel Erfahrung</td>
-                </tr>
-                <tr>
-                    <td class="legend-number">5</td>
-                    <td>Experte, viel praktische Erfahrung</td>
-                </tr>
-            </table>
-        </div>
+    <!-- Skills Section (Collapsible Groups, with icons/emojis and buttons) -->
+    <section class="cv-section">
+      <div class="cv-header-text">
+        <h2 style="text-transform: lowercase;">skills</h2>
+      </div>
+      <div class="skills-collapsible-group">
+        <input type="checkbox" id="toggle-languages" class="skills-toggle" hidden />
+        <label for="toggle-languages" class="skills-collapsible-label" style="text-transform: lowercase;">programming languages</label>
+        <ul class="skills-list skills-collapsible-content">
+          <li><span class="skill-icon">☕</span> java</li>
+          <li><span class="skill-icon">💻</span> javascript</li>
+          <li><span class="skill-icon">🐍</span> python</li>
+          <li><span class="skill-icon">🐘</span> php</li>
+          <li><span class="skill-icon">#️⃣</span> c#</li>
+        </ul>
+      </div>
+      <div class="skills-collapsible-group">
+        <input type="checkbox" id="toggle-databases" class="skills-toggle" hidden />
+        <label for="toggle-databases" class="skills-collapsible-label" style="text-transform: lowercase;">databases</label>
+        <ul class="skills-list skills-collapsible-content">
+          <li><span class="skill-icon">🗄️</span> mysql</li>
+          <li><span class="skill-icon">🗃️</span> nosql</li>
+          <li><span class="skill-icon">🍃</span> mongodb</li>
+          <li><span class="skill-icon">🖥️</span> microsoft sql server (mssql)</li>
+        </ul>
+      </div>
+      <div class="skills-collapsible-group">
+        <input type="checkbox" id="toggle-tools" class="skills-toggle" hidden />
+        <label for="toggle-tools" class="skills-collapsible-label" style="text-transform: lowercase;">web & dev tools</label>
+        <ul class="skills-list skills-collapsible-content">
+          <li><span class="skill-icon">🌐</span> html</li>
+          <li><span class="skill-icon">🎨</span> css</li>
+          <li><span class="skill-icon">🔧</span> git</li>
+          <li><span class="skill-icon">📊</span> bpmn</li>
+          <li><span class="skill-icon">🐳</span> docker</li>
+          <li><span class="skill-icon">📋</span> jira</li>
+          <li><span class="skill-icon">🗂️</span> bitbucket</li>
+          <li><span class="skill-icon">📑</span> confluence</li>
+          <li><span class="skill-icon">🗄️</span> basecamp</li>
+          <li><span class="skill-icon">🛠️</span> telerik</li>
+        </ul>
+      </div>
+      <div class="skills-collapsible-group">
+        <input type="checkbox" id="toggle-os" class="skills-toggle" hidden />
+        <label for="toggle-os" class="skills-collapsible-label" style="text-transform: lowercase;">operating systems</label>
+        <ul class="skills-list skills-collapsible-content">
+          <li><span class="skill-icon">🐧</span> linux</li>
+          <li><span class="skill-icon">🪟</span> windows</li>
+        </ul>
+      </div>
     </section>
-    <section id="cv" class="cv-section">
-        <h2>CV / Lebenslauf</h2>
-        <a href="docs/CV_Pereira_Rui.pdf" target="_blank" class="cv-link">Lebenslauf herunterladen</a>
+    <!-- Hobbies Section (with emojis, lowercase) -->
+    <section class="cv-section">
+      <div class="cv-header-text">
+        <h2 style="text-transform: lowercase;">hobbies & interests</h2>
+      </div>
+      <ul class="skills-list">
+        <li>🏋️‍♂️ gym</li>
+        <li>🏃‍♂️ jogging</li>
+        <li>⚽ football</li>
+        <li>💻 programming</li>
+        <li>🎮 gaming</li>
+        <li>🧑‍🤝‍🧑 going out with friends</li>
+        <li>🎬 series & films</li>
+        <li>👨‍🍳 cooking</li>
+        <li>📚 reading</li>
+      </ul>
     </section>
-    <section id="grades" class="grades-section">
-        <h2>Modulnoten</h2>
-        <a href="docs/Modulnotenübersicht_Rui_Pereira.pdf" target="_blank" class="grades-link">Modulnoten herunterladen</a>
+    <!-- Languages Section (with flags, lowercase) -->
+    <section class="cv-section">
+      <div class="cv-header-text">
+        <h2 style="text-transform: lowercase;">languages</h2>
+      </div>
+      <ul class="skills-list">
+        <li>🇵🇹 portuguese (native)</li>
+        <li>🇩🇪 german (native)</li>
+        <li>🇬🇧 english (advanced, fluent)</li>
+        <li>🇫🇷 french (conversational)</li>
+        <li>🇮🇹 italian (conversational)</li>
+      </ul>
     </section>
-    <footer class="footer">
-        <p>&copy; 2024 Rui Gonçalves Pereira</p>
-    </footer>
+    <!-- Certifications Section (lowercase) -->
+    <section class="cv-section">
+      <div class="cv-header-text">
+        <h2 style="text-transform: lowercase;">certifications</h2>
+      </div>
+      <ul class="certifications-list">
+        <li>portuguese c1 (instituto camões)</li>
+        <li>english c1 (cambridge advanced english)</li>
+        <li>french b1 (delf)</li>
+      </ul>
+    </section>
+    
+  </main>
+  <footer>
+    <div class="footer-privacy">this site doesn’t collect, store, or share any personal data. no cookies, no trackers, no sneaky stuff.</div>
+    © rui gonçalves pereira 2025 — all rights reserved
+  </footer>
+  <script src="script.js"></script>
 </body>
 </html>
