@@ -223,9 +223,9 @@ function setLanguage(lang) {
   // Copyright
   const footerCopyright = document.querySelector('footer');
   if (footerCopyright) {
-    // Remove any existing copyright text nodes except .footer-privacy
+    // Remove all text nodes and copyright text from the footer
     Array.from(footerCopyright.childNodes).forEach(node => {
-      if (node.nodeType === Node.TEXT_NODE && node.textContent.trim() && !node.previousSibling?.classList?.contains('footer-privacy')) {
+      if ((node.nodeType === Node.TEXT_NODE && node.textContent.trim()) || (node.nodeType === Node.ELEMENT_NODE && node.className !== 'footer-privacy')) {
         footerCopyright.removeChild(node);
       }
     });
